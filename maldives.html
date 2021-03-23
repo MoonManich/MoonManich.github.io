@@ -14,7 +14,7 @@
 <body>
 <!--nav-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-  <a class="navbar-brand" href="index.html"><img src="img/logo-small.png" alt=""></a>
+  <a class="navbar-brand" href="index.html"img src="img/logo-small.png" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -48,74 +48,12 @@
   </div>
 </nav>
 
-<!--  section.billing-->
-<section class="billing" id="billing">
-    <div class="container">
-        <form action="#">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                   <h3>Billing Address</h3>
-                    <label for="fname"><i class="far fa-user"></i> Full Name</label>
-                    <input type="text" name="fname" id="fname" placeholder="Name">
-                    
-                    <label for="email"><i class="far fa-envelope"></i> Email</label>
-                    <input type="text" name="email" id="email" placeholder="Email">
-                    
-                    <label for="adr"><i class="fas fa-map-marker-alt"></i> Address</label>
-                    <input type="text" id="adr" name="address" placeholder="Ovodova. 22">
-                    
-                    <label for="city"><i class="far fa-building"></i> City</label>
-                    <input type="text" id="city" name="city" placeholder="Vinnytsia">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                            <label for="country"><i class="fas fa-university"></i> Country</label>
-                            <input type="text" id="country" name="country" placeholder="Ukraine">
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                           <label for="zip">Zip</label>
-                            <input type="text" id="zip" name="zip" placeholder="10001"> 
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                    <h3>Payment</h3>
-                    <label for="fname">Accepted Cards</label>
-                    <div class="payment-container">
-                        <i class="fab fa-cc-visa" style="color: #362ac3"></i>
-                        <i class="fab fa-cc-mastercard" style="color: #e21b1b"></i>
-                        <i class="fab fa-cc-apple-pay" style="color: #807c71"></i>
-                        <i class="fab fa-cc-paypal" style="color: #1bb4e2"></i>
-                    </div>
-                    <label for="cname">Name on Card</label>
-                    <input type="text" id="cname" name="cardname" placeholder="Name">
-                    
-                    <label for="ccnum">Credit card number</label>
-                    <input type="text" id="ccnum" name="cardnumber" placeholder="111-222-333">
-                    
-                    <label for="expmonth">Exp Month</label>
-                    <input type="text" id="expmonth" name="expmonth" placeholder="September">
-                   
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                            <label for="expyear">Exp Year</label>
-                            <input type="text" id="expyear" name="expyear" placeholder="2021">  
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                            <label for="cvv">CVV</label>
-                            <input type="text" id="cvv" name="cvv" placeholder="352">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <label>
-                <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
-            </label>
-            <button type="button" class="btn btn-info">Continue to checkout</button>
-        </form>
-    </div>
-</section>
-
+<div class="container p-5">
+    <h3 class="text-center">Maldives</h3>
+    <p class="p-3 pt-3">The Ministry of Tourism revealed that the arrival count to the Maldives is currently at 235,758 tourist arrivals. The statistics stated that an average of 3,230 travelers arrived in the Maldives every day, with nine days recorded as the average duration of stay.</p>
+    <p class="p-3 pt-3">Maldives reopened borders to all nationalities from 15th July 2020. All visitors are granted a 30-day free on-arrival visa with a confirmed booking for a stay at any registered tourist facility in the country. While there is no mandatory quarantine or testing on arrival, tourists traveling to Maldives are required to complete an online health declaration form and provide a negative PCR test result taken at least 96 hours prior to their departure. </p>
+    <iframe width="100%" height="450" src="https://www.youtube.com/embed/61rwGtKN8aI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <!--  footer-->
    <footer class="bg-dark text-light pt-5 pb-5">
@@ -149,8 +87,11 @@
             </div>
         </div>
 </footer> 
+   
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     
 <!--script    -->
+<script src="js/totop.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>

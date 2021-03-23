@@ -2,22 +2,26 @@ html{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+video{
+    width: 100%;
+}
 .header{
     padding-top: 10%;
+    z-index: 1;
 }
 .anons{
     padding: 100px 0;
 }
 .img1{
     background-image: url(../img/sea.jpg);
-    height: 400px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .img2{
     background-image: url(../img/sea2.jpg);
-    height: 400px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
